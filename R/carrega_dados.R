@@ -12,7 +12,7 @@
 #' @export
 #'
 #' @examples df_dados_brutos <- carrega_dados('~/data/arquivo_dados.xlsx')
-carrega_dados <- function(dados_brutos = '~\\Scripts R\\opcoes\\data\\negociacao-2022.xlsx') {
+carrega_dados <- function(dados_brutos = '~\\sripts_r\\opcoes\\data\\negociacao-2022.xlsx') {
 
 
   dados_brutos <- readxl::read_xlsx(dados_brutos, sheet = 1) %>%

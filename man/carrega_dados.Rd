@@ -5,7 +5,7 @@
 \title{Carrega dados brutos}
 \usage{
 carrega_dados(
-  dados_brutos = "~\\\\Scripts R\\\\opcoes\\\\data\\\\negociacao-2022.xlsx"
+  dados_brutos = "~\\\\sripts_r\\\\opcoes\\\\data\\\\negociacao-2022.xlsx"
 )
 }
 \arguments{

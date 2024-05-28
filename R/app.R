@@ -1,8 +1,9 @@
 library(shiny)
+library(purrr)
 
 myapp <- function(...){
 
-  ui <- fluidPage(
+  ui <- fluidPage(title = 'Investimentos',
     fileInput('dados_brutos', 'Selecione os arquivos de negociacao', accept = '.xlsx', multiple = TRUE),
     DT::DTOutput('negociacao')
   )
